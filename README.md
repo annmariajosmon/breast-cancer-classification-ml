@@ -1,24 +1,77 @@
-# Breast-Cancer-Classification-with-Machine-Learning
+# 🧠 Breast Cancer Classification using Machine Learning
 
-This repository contains a machine learning project that focuses on the classification of breast cancer using the Wisconsin breast cancer diagnostic dataset from scikit-learn. The project aims to help in the early diagnosis of breast cancer by utilizing machine learning techniques to analyze and predict whether a given breast mass is malignant or benign.
+This project builds a machine learning model to classify breast cancer tumors as **malignant or benign** based on diagnostic features.
 
-Workflow:
+---
 
-1.Data Preprocessing:
-  Import and clean the dataset, removing any missing values.
-  Split the dataset into training and testing sets.
-  
-2.Training the Model:
-  Choose a machine learning algorithm and train the model using the training dataset.
-  Optimize hyperparameters to achieve the best model performance.
-  Save the trained model for future predictions.
-  
-3.Evaluation:
-  Evaluate the model's performance on the testing dataset.
-  Calculate key metrics such as accuracy, precision, recall, and F1-score.
-  
-4.Prediction:
-  Load the pre-trained model.
-  Use the model to make predictions on new data samples.
-  Analyze the model's predictions for breast cancer classification.
+## 📌 Problem Statement
 
+Early detection of breast cancer is critical for effective treatment.  
+This project uses machine learning to classify tumors as:
+
+- **Malignant (0): Cancerous**
+- **Benign (1): Non-cancerous**
+
+---
+
+## 📊 Dataset Information
+
+- Source: Breast Cancer Wisconsin Dataset (sklearn)
+- Total Samples: 569
+- Features: 30 numeric features computed from digitized cell images
+- Target Classes:
+  - 0 → Malignant
+  - 1 → Benign
+
+---
+
+## ⚙️ Technologies Used
+
+- Python
+- NumPy
+- Pandas
+- Scikit-learn
+
+---
+
+## 🤖 Machine Learning Model
+
+- Algorithm: Logistic Regression
+- Type: Binary Classification
+
+---
+
+## 🔄 Workflow
+
+1. Load dataset from `sklearn.datasets`
+2. Convert dataset into DataFrame
+3. Perform data exploration and preprocessing
+4. Split dataset into training and testing sets (80/20)
+5. Train Logistic Regression model
+6. Evaluate model performance
+7. Build a prediction system for new input data
+
+---
+
+## 📈 Model Performance
+
+- Training Accuracy: ~94%
+- Testing Accuracy: ~93%
+
+### Evaluation Metrics:
+- Accuracy Score
+- Precision
+- Recall
+- F1-score
+- Confusion Matrix
+
+---
+
+## 🧪 Prediction Example
+
+The model predicts whether a tumor is:
+
+- **Malignant (0)** → Cancerous
+- **Benign (1)** → Non-cancerous
+
+Example output:
