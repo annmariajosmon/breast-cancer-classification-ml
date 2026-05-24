@@ -73,5 +73,3 @@ The model predicts whether a tumor is:
 
 - **Malignant (0)** → Cancerous
 - **Benign (1)** → Non-cancerous
-
-Example output:
