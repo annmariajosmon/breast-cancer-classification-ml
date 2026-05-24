@@ -1,4 +1,4 @@
-# 🧠 Breast Cancer Classification using Machine Learning
+# Breast Cancer Classification using Machine Learning
 
 This project builds a machine learning model to classify breast cancer tumors as **malignant or benign** based on diagnostic features.
 
